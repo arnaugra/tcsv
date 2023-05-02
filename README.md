@@ -1,6 +1,9 @@
 # tcsv
 Small tool to navigate easily through a csv file on a cli
 
+## Requirements
+- Node.js
+
 ## Installation
 1- Clone the repository
 ```
