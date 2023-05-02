@@ -1,0 +1,17 @@
+{
+  "name": "tcsv",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "csv-parse": "^2.3.2",
+    "readline-sync": "^1.4.10"
+  }
+}
