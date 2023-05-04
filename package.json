@@ -1,11 +1,12 @@
 {
   "name": "tcsv",
   "version": "1.1.0",
-  "description": "",
+  "description": "Small app see csv file as a table and paginate it and search values by column name",
   "type": "module",
   "main": "app.js",
-  "keywords": [],
-  "author": "",
+  "keywords": ["csv", "table", "paginate", "search"],
+  "git-repository": "https://github.com/arnaugra/tcsv",
+  "author": "arnaugra",
   "license": "ISC",
   "bin": {
     "tcsv": "./app.js"
