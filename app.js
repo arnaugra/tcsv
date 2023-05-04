@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs from 'fs';
 import csvParse from 'csv-parse';
 import readlineSync from 'readline-sync';
@@ -14,7 +16,7 @@ const STATE = {
 };
 
 //name of the file to be read if given as argument, else undefined
-let fileName = process.argv[2].concat('.csv');
+let fileName = process.argv[2] ? process.argv[2].concat('.csv') : undefined;
 let cols = [];
 
 //pagination object
