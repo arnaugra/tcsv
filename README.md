@@ -2,21 +2,17 @@
 Small tool to navigate easily through a csv file on a cli
 
 ## Requirements
-- Node.js
+- [Node.js](https://nodejs.org/en/download/)
 
 ## Installation
-1- Clone the repository
+Use the package manager [npm](https://www.npmjs.com/) to install tcsv globally.
+``` 
+npm install -g table-csv-terminal
 ```
-git clone https://github.com/arnaugra/tcsv.git
-```
-2- Install the requirements
-```
-npm install
-```
-3- At the moment you must put the csv file in the same folder as the script
-
+This way will work as a command line tool.
 
 ## Usage
+Go to the folder where the csv file is located and run the following command:
 ```
-node tcsv.js <file.csv>
+tcsv <file.csv>
 ```
