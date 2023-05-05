@@ -13,6 +13,10 @@ This way will work as a command line tool.
 
 ## Usage
 Go to the folder where the csv file is located and run the following command:
+```	
+tcsv
+```
+or
 ```
 tcsv <file.csv>
 ```

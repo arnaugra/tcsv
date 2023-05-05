@@ -1,6 +1,6 @@
 {
   "name": "table-csv-terminal",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Small app see csv file as a table and paginate it and search values by column name",
   "type": "module",
   "main": "app.js",
