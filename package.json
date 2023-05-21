@@ -12,7 +12,7 @@
     "tcsv": "./app.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": ""
   },
   "dependencies": {
     "cli-table": "^0.3.11",
