@@ -41,6 +41,7 @@ export function list() {
                 const tableStr = table.toString();
                 paginate.totalPages = paginate.full ? 1 : Math.ceil(paginate.total / paginate.limit);
                 paginate.search.state = false;
+                paginate.last = paginate.page * paginate.limit;
                 resolve(tableStr);
             })
             .on('error', (err) => { //if there is an error, reject the promise
