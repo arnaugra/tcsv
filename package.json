@@ -11,6 +11,8 @@
   "bin": {
     "tcsv": "./app.js"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"},
   "dependencies": {
     "cli-table": "^0.3.11",
     "csv-parse": "^2.3.2",
